@@ -2,6 +2,14 @@
   "name": "tp01",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/tiaramencurt/TP01-DAI#readme",
+  "bugs": {
+    "url": "https://github.com/tiaramencurt/TP01-DAI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiaramencurt/TP01-DAI.git"
+  },
   "license": "ISC",
   "author": "",
   "type": "module",
@@ -19,5 +27,6 @@
   },
   "dependencies": {
     "currency-map-country": "^1.0.12"
-  }
+  },
+  "devDependencies": {}
 }

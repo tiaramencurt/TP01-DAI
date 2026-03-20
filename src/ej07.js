@@ -3,7 +3,8 @@ import currencyMap from 'currency-map-country';
 function obtenerMoneda(codigo) {
     try {
         let moneda = currencyMap.getCurrency(codigo);
-        if (codigoMoneda == undefined) {
+        console.log(moneda)
+        if (moneda == null) {
             return null;
         }
         return moneda.name;
@@ -12,7 +13,7 @@ function obtenerMoneda(codigo) {
     }
 }
 
-let codigoPais = 'AR';
+let codigoPais = 'ARS';
 let monedaDelPais = obtenerMoneda(codigoPais);
 
 console.log(`La moneda del país ${codigoPais} es: ${monedaDelPais}`);
