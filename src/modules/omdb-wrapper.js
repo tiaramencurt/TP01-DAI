@@ -1,4 +1,3 @@
-/* Módulo OMDBWrapper*/
 import axios from "axios";
 
 const APIKEY = "fd5f9e56";
